@@ -1,0 +1,12 @@
+{
+  "services": [
+    {
+      "type": "web",
+      "name": "mc-bot-backend",
+      "env": "node",
+      "buildCommand": "npm install",
+      "startCommand": "node server.js",
+      "plan": "free"
+    }
+  ]
+}
